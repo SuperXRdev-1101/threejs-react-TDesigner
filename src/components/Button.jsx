@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({ props, funcs = null }) => {
+const Button = ({ props, funcs }) => {
   return (
     <button
       type="button"
@@ -12,7 +12,7 @@ const Button = ({ props, funcs = null }) => {
           : '',
       }}
       onClick={() => {
-        if (funcs) funcs.changeTab(props.ind)
+        funcs.changeTab(props.ind)
       }}
     >
       <img
