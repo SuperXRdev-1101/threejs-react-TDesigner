@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({ props, funcs }) => {
+const Button2 = ({ props, funcs }) => {
   return (
     <button
       type="button"
@@ -25,4 +25,4 @@ const Button = ({ props, funcs }) => {
   )
 }
 
-export default Button
+export default Button2
